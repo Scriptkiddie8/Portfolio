@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(19, 153, 206);
+}
+
+header nav {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(19, 153, 206);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+}
+
+header nav .left{
+    margin-left: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+header nav .left>*{
+    font-size: 36px;
+    font-weight: bolder;
+}
+header nav .right{
+    width: 50%;
+    margin-right: 50px;
+    display: flex;
+    padding: 20px;
+    font-weight: bolder;
+    border: 1px solid transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+}
+section .mid{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40vh;
+    padding: 0px 70px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+section .mid #head{
+    display: flex;
+    font-size: 45px;
+}
+section .mid #para{
+    display: flex;    
+}
+.midSection{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.midSection .card {
+    width: 25%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+
+.midSection .card .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    
+}
+.midSection .card .middle{
+    width: 100%;
+}
+
+.midSection .card .bottom button{
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 5px 10px;    
+}
+
+
+.red{
+    background-color: rgb(206, 188, 238);
+}
+.blue{
+    background-color: rgb(243, 220, 186);
+}
+.pink{
+    background-color: rgb(232, 128, 153);
+}
+
+footer{ 
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 30px;
+}
+footer .foot{
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    background-color: #b0d681;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+footer .brand{
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .brand .sources{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.icon{
+    font-size: 30px;
+}
+footer .foot .bottom button{
+    border-radius: 20px;
+    background-color: black;
+    color: #b0d681;
+    padding: 10px 50px;
+}
+#branching{
+    padding: 10px;
+}
